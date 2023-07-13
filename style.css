@@ -65,7 +65,13 @@ a {
 }
 
 .mainUrls>div:hover {
-    box-shadow: 0 0 20px 5px#001f3f;
+    box-shadow: 0 0 20px 5px #001f3f;
+    transform: scaleX(1.2) scaleY(1.2);
+    backdrop-filter: blur(10px);
+}
+
+.mainUrls>div:active {
+    transform: scaleX(1.1) scaleY(1.1);
 }
 
 .urlin {
